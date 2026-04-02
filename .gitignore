@@ -1,6 +1,6 @@
 .DS_Store
 pal20k/
-pal100k/
+# pal100k/
 # pal250k/
 *.html
 *.mapml
