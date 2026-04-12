@@ -6,7 +6,7 @@
   version="1.0.0"
 >
   <ows:ServiceIdentification>
-    <ows:Title>Palestine 1:20,000</ows:Title>
+    <ows:Title>Palestine 1:100,000</ows:Title>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
     <ows:Fees>none</ows:Fees>
@@ -14,26 +14,126 @@
   </ows:ServiceIdentification>
   <Contents>
     <Layer>
-      <ows:Title>Palestine 1:20,000</ows:Title>
+      <ows:Title>Palestine 1:100,000</ows:Title>
       <Format>image/webp</Format>
       <TileMatrixSetLink>
         <TileMatrixSet>google3857</TileMatrixSet>
+        <TileMatrixSetLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:0</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>0</MinTileCol>
+            <MaxTileCol>0</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:1</TileMatrix>
+            <MinTileRow>0</MinTileRow>
+            <MaxTileRow>0</MaxTileRow>
+            <MinTileCol>1</MinTileCol>
+            <MaxTileCol>1</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:2</TileMatrix>
+            <MinTileRow>1</MinTileRow>
+            <MaxTileRow>1</MaxTileRow>
+            <MinTileCol>2</MinTileCol>
+            <MaxTileCol>2</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:3</TileMatrix>
+            <MinTileRow>3</MinTileRow>
+            <MaxTileRow>3</MaxTileRow>
+            <MinTileCol>4</MinTileCol>
+            <MaxTileCol>4</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:4</TileMatrix>
+            <MinTileRow>6</MinTileRow>
+            <MaxTileRow>6</MaxTileRow>
+            <MinTileCol>9</MinTileCol>
+            <MaxTileCol>9</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:5</TileMatrix>
+            <MinTileRow>12</MinTileRow>
+            <MaxTileRow>13</MaxTileRow>
+            <MinTileCol>19</MinTileCol>
+            <MaxTileCol>19</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:6</TileMatrix>
+            <MinTileRow>25</MinTileRow>
+            <MaxTileRow>26</MaxTileRow>
+            <MinTileCol>38</MinTileCol>
+            <MaxTileCol>38</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:7</TileMatrix>
+            <MinTileRow>51</MinTileRow>
+            <MaxTileRow>52</MaxTileRow>
+            <MinTileCol>76</MinTileCol>
+            <MaxTileCol>76</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:8</TileMatrix>
+            <MinTileRow>102</MinTileRow>
+            <MaxTileRow>104</MaxTileRow>
+            <MinTileCol>152</MinTileCol>
+            <MaxTileCol>153</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:9</TileMatrix>
+            <MinTileRow>205</MinTileRow>
+            <MaxTileRow>209</MaxTileRow>
+            <MinTileCol>304</MinTileCol>
+            <MaxTileCol>306</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:10</TileMatrix>
+            <MinTileRow>411</MinTileRow>
+            <MaxTileRow>419</MaxTileRow>
+            <MinTileCol>609</MinTileCol>
+            <MaxTileCol>613</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:11</TileMatrix>
+            <MinTileRow>822</MinTileRow>
+            <MaxTileRow>838</MaxTileRow>
+            <MinTileCol>1218</MinTileCol>
+            <MaxTileCol>1227</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:12</TileMatrix>
+            <MinTileRow>1645</MinTileRow>
+            <MaxTileRow>1677</MaxTileRow>
+            <MinTileCol>2436</MinTileCol>
+            <MaxTileCol>2454</MaxTileCol>
+          </TileMatrixLimits>
+          <TileMatrixLimits>
+            <TileMatrix>google3857:13</TileMatrix>
+            <MinTileRow>3291</MinTileRow>
+            <MaxTileRow>3354</MaxTileRow>
+            <MinTileCol>4873</MinTileCol>
+            <MaxTileCol>4909</MaxTileCol>
+          </TileMatrixLimits>
+        </TileMatrixSetLimits>
       </TileMatrixSetLink>
       <ResourceURL
         format="image/webp"
-        template="https://cdn.jsdelivr.net/gh/bothness/pom-tiles-raster/pal20k/{TileMatrix}/{TileCol}/{TileRow}.webp"
+        template="https://cdn.jsdelivr.net/gh/bothness/pom-tiles-raster/pal100k/{TileMatrix}/{TileCol}/{TileRow}.webp"
         resourceType="tile"
       />
     </Layer>
     <TileMatrixSet>
       <ows:Identifier>google3857</ows:Identifier>
       <ows:WGS84BoundingBox>
-        <ows:LowerCorner>34.158705987 31.217307293</ows:LowerCorner>
-        <ows:UpperCorner>35.682675146 33.295181224</ows:UpperCorner>
+        <ows:LowerCorner>34.158726169 30.94680009</ows:LowerCorner>
+        <ows:UpperCorner>35.747434384 33.28617338</ows:UpperCorner>
       </ows:WGS84BoundingBox>
       <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
-        <ows:LowerCorner>3802529.756629985 3661002.9057592275</ows:LowerCorner>
-        <ows:UpperCorner>3972177.227394519 3934550.196810172</ows:UpperCorner>
+        <ows:LowerCorner>3802532.0032799486 3625842.0479601757</ows:LowerCorner>
+        <ows:UpperCorner>3979386.1927928394 3933350.5884975614</ows:UpperCorner>
       </ows:BoundingBox>
       <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
       <WellKnownScaleSet>
@@ -164,24 +264,6 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>8192</MatrixWidth>
         <MatrixHeight>8192</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>34123.67334161377</ScaleDenominator>
-        <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>16384</MatrixWidth>
-        <MatrixHeight>16384</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>17061.836670806886</ScaleDenominator>
-        <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>32768</MatrixWidth>
-        <MatrixHeight>32768</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
   </Contents>
